@@ -1,0 +1,18 @@
+POST http://localhost:3000/posts
+Content-Type: application/json 
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsImVtYWlsIjoiQWJiYUBnbWFpbC5jb20iLCJpYXQiOjE3MzIwNTAxMDksImV4cCI6MTczMjA1MzcwOSwiYXVkIjoibG9jYWxob3N0OjMwMDAiLCJpc3MiOiJsb2NhbGhvc3Q6MzAwMCJ9.PB7XXOldpduCPu0aIZoIAtnk5E_enM1mUsb-9ypQlOA
+
+{
+"title": "new post 11",
+"postType": "post",
+"slug": "new-with-cascade-11",
+"status": "draft",
+"content": "test content without meta options",
+"featuredImageUrl": "http://test.com/image/image1.url",
+// "publishedOn": "2024-11-04T14:55:46+0000",
+// "tags": ["nestJs", "typescript"],
+"metaOptions": {
+    "metaValue": "{\"sidebarEnabled\": true, \"footerActive\": true}"
+},
+"tags": []
+}

@@ -1,0 +1,15 @@
+PATCH http://localhost:3000/posts
+Content-Type: application/json 
+
+{
+    "id": 11,
+    "title": "Testing Title Change",
+    "postType": "post",
+    "slug": "new-with-cascade-2",
+    "status": "draft",
+    "content": "test content",
+    "tags": [3, 1],
+    "metaOptions": {
+    "metaValue": "{\"sidebarEnabled\": true, \"footerActive\": true}"
+    }
+}

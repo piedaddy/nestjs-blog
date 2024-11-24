@@ -1,0 +1,31 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsImVtYWlsIjoiQWJiYUBnbWFpbC5jb20iLCJpYXQiOjE3MzIwNDQ3NzcsImV4cCI6MTczMjA0ODM3NywiYXVkIjoibG9jYWxob3N0OjMwMDAiLCJpc3MiOiJsb2NhbGhvc3Q6MzAwMCJ9.pqvVTgrTo6UuywX6v5GRlHfO5TjK3pGlhVg9Qh14itk
+
+{
+    "firstName": "Quetzal",
+    "lastName": "Vallejo-Howard",
+    "email": "quetzal.howard6@gmail.com",
+    "password": "Password123#"
+}
+
+
+POST http://localhost:3000/users/create-many
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsImVtYWlsIjoiQWJiYUBnbWFpbC5jb20iLCJpYXQiOjE3MzE2NzY0NzcsImV4cCI6MTczMTY4MDA3NywiYXVkIjoibG9jYWxob3N0OjMwMDAiLCJpc3MiOiJsb2NhbGhvc3Q6MzAwMCJ9.ZCEnmAq0tGn5mhtp1L1DDOBkpc6AMZqMVb_4O8AlfEE
+
+
+{
+    "users": [{
+    "firstName": "Jan2",
+    "lastName": "Boros",
+    "email": "Boros2@gmail.com",
+    "password": "Password123#"
+}, 
+{
+    "firstName": "Quetz",
+    "lastName": "VHoward",
+    "email": "Quetz2@gmail.com",
+    "password": "Password123#"
+}]
+}
